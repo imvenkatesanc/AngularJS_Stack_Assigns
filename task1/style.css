@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    background:#fff;
+    background-size: cover;
+}
+
+form{
+    
+    border: 1px solid #9c9c9c;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 300px; /* Optional: Limit the width of the form */
+    margin: auto; /* Optional: Center the form horizontally */
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+label{
+    display: block;
+    background: none;
+}
+ input{
+    width: 95%;
+    padding: 7px;
+    border: 1px solid #fff;
+    border-radius: 9px;
+    margin-bottom: 9px;
+    background: #c2c2c2;
+ }
+ .submit-btn{
+    background-color:#c2c2c2; /* Blue button color (adjust as needed) */
+    color: #11060e;
+    padding: 12px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+    width: 30%;
+    margin-left: 100px;
+ }
+ .submit-btn:hover{
+    background-color: green;
+    color: #11060e;
+ }
